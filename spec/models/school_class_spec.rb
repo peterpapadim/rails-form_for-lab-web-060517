@@ -1,3 +1,14 @@
+# == Schema Information
+#
+# Table name: school_classes
+#
+#  id          :integer          not null, primary key
+#  title       :string
+#  room_number :integer
+#  created_at  :datetime         not null
+#  updated_at  :datetime         not null
+#
+
 require 'rails_helper'
 
 describe SchoolClass do
